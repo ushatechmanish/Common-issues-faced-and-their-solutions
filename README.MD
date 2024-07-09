@@ -22,15 +22,15 @@ git pull origin main --allow-unrelated-histories
 resolve any merge conflicts by using following methods
 1. git status 
 To find the files with conflict 
-1. Open the files with conflict. You will get something like this 
+2. Open the files with conflict. You will get something like this 
 <<<<<<< HEAD
 # Local changes
 =======
 # Changes from remote repository
 >>>>>>> branch-name
-1. Remove  >>>>>>> branch-name and <<<<<<< HEAD  pointers and save file after making the required changes 
-1. git add . to add conflict files 
-1. git push origin main
+3. Remove  >>>>>>> branch-name and <<<<<<< HEAD  pointers and save file after making the required changes 
+4. git add . to add conflict files 
+5. git push origin main
 
 
 
