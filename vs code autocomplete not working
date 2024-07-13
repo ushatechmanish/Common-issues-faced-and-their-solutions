@@ -1,0 +1,6 @@
+Add the following in .vscode/settings.json
+
+{
+"java.import.gradle.enabled": true,
+"java.autocomplete.enabled": true,
+}
